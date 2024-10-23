@@ -1,7 +1,7 @@
 import qrcode
 import telebot
 
-bot = telebot.TeleBot('7191362631:AAHo-2VbPgmJdBjsMwEDQhoKLArjt7qkRf0')
+bot = telebot.TeleBot('<bot_token>')
 
 @bot.message_handler(commands = ['start'])
 def main(message):
